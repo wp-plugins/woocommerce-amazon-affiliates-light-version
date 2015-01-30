@@ -1,4 +1,4 @@
-=== Woocommerce Amazon Affiliates - Light Version ===
+=== WooZone - Light Version ===
 Contributors: AA-Team
 Donate link: http://aa-team.com/
 Tags: premium seo plugin
