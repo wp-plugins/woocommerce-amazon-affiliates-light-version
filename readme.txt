@@ -8,12 +8,14 @@ Stable tag: trunk
 License: GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Turn your Woocommerce Wordpress Store into a money profit generator using WooZone!
+Turn your Woocommerce Wordpress Store into a money profit generator using WooZone Light!
  
 == Description ==
 
 Advertise Amazon products on your Woocommerce website and earn advertising fees from Qualifying Purchases.
 
+= Good to know ! =
+This is a light version of [WooZone](http://codecanyon.net/item/woocommerce-amazon-affiliates-wordpress-plugin/3057503 "WooZone")!
 
 = Excellent On-Page Optimization ! =
 Great SEO content for your products, our WooZone Plugin takes all data available for all Amazon products: Title, Prices (regular prices, sales prices and all prices variations), all products attributes, product reviews and full products descriptions.
