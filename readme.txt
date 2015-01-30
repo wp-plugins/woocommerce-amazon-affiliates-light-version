@@ -15,7 +15,7 @@ Turn your Woocommerce Wordpress Store into a money profit generator using WooZon
 Advertise Amazon products on your Woocommerce website and earn advertising fees from Qualifying Purchases.
 
 = Good to know ! =
-This is a light version of [WooZone](http://codecanyon.net/item/woocommerce-amazon-affiliates-wordpress-plugin/3057503 "WooZone")!
+This is a light version of [WooZone](http://codecanyon.net/item/woocommerce-amazon-affiliates-wordpress-plugin/3057503?ref=AA-Team "WooZone")!
 
 = Excellent On-Page Optimization ! =
 Great SEO content for your products, our WooZone Plugin takes all data available for all Amazon products: Title, Prices (regular prices, sales prices and all prices variations), all products attributes, product reviews and full products descriptions.
