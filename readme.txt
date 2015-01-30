@@ -1,7 +1,7 @@
 === WooZone - Light Version ===
 Contributors: AA-Team
 Donate link: http://aa-team.com/
-Tags: premium seo plugin
+Tags: amazon associates, woocommerce amazon associates
 Requires at least: 4.1
 Tested up to: 4.1
 Stable tag: trunk
