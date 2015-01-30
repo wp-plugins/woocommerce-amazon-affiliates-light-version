@@ -26,28 +26,28 @@ On our Advanced Search & Bulk Import Module, you can Search by Categories / Subc
 
 = Full Features List =
 
-*Works as plugin on any Wordpress Install.
-*Compatible with any Wordpress / Woocommerce Theme
-*You can have Amazon Products and Simple Woocommerce Products on the Store in the Same Time (we’ve made a special verification and the products don’t conflict into the Cart Checkout Page)
-*Choose from any Amazon Location – Worldwide, Amazon Germany, Amazon United Kingdom, Amazon Canada, Amazon France, Amazon Japan, Amazon India, Amazon Italy, Amazon China, Amazon Spain.
-*90 days cookies feature - With this feature, when a user is redirected to amazon, the product is automatically added to cart and kept there for 90 days (this boosts your conversions also!).
-*Default publishing- import the products as Published or Draft.
-*Select how many images to import for each product
-*Image Import type – Select if you wish import images upon import or asynchronus
-*Products Stats – check your conversions!
-*Images gallery in product description – select if you wish to display it or not.
-*Setup Amazon Access Key ID and Secret Access Key
-*Setup your affiliate ID’s (You don’t have to specify all affiliate IDs if you are not registered to all programs.)
-*Setup Main Affiliate ID
-*One second import! Search for products using the Advanced Search and Bulk Import module. Upon import all parent categories and subcategories will be imported.
-*Setup / Backup Module – install default plugin settings, backup current plugin settings, and backup current store products.
+* Works as plugin on any Wordpress Install.
+* Compatible with any Wordpress / Woocommerce Theme
+* You can have Amazon Products and Simple Woocommerce Products on the Store in the Same Time (we’ve made a special verification and the products don’t conflict into the Cart Checkout Page)
+* Choose from any Amazon Location – Worldwide, Amazon Germany, Amazon United Kingdom, Amazon Canada, Amazon France, Amazon Japan, Amazon India, Amazon Italy, Amazon China, Amazon Spain.
+* 90 days cookies feature - With this feature, when a user is redirected to amazon, the product is automatically added to cart and kept there for 90 days (this boosts your conversions also!).
+* Default publishing- import the products as Published or Draft.
+* Select how many images to import for each product
+* Image Import type – Select if you wish import images upon import or asynchronus
+* Products Stats – check your conversions!
+* Images gallery in product description – select if you wish to display it or not.
+* Setup Amazon Access Key ID and Secret Access Key
+* Setup your affiliate ID’s (You don’t have to specify all affiliate IDs if you are not registered to all programs.)
+* Setup Main Affiliate ID
+* One second import! Search for products using the Advanced Search and Bulk Import module. Upon import all parent categories and subcategories will be imported.
+* Setup / Backup Module – install default plugin settings, backup current plugin settings, and backup current store products.
 
-= What you will need in order to use the WooZone – Wordpress Plugin : =
+= What you will need in order to use the WooZone – Wordpress Plugin: =
 
-    * Wordpress 4.0+
-    * WooCommerce Wordpress Plugin – Version 2 +
-	* Amazon account (https://aws.amazon.com/) in order to get Secret/Access Keys
-    * Amazon affiliate account (https://affiliate-program.amazon.com/) in order to get the money!
+* Wordpress 4.0+
+* WooCommerce Wordpress Plugin – Version 2 +
+* Amazon account (https://aws.amazon.com/) in order to get Secret/Access Keys
+* Amazon affiliate account (https://affiliate-program.amazon.com/) in order to get the money!
 
 
 == Installation ==
@@ -76,11 +76,7 @@ After uploading the Plugin to your server, Click 'Activate'
 
 Mandatory Step - You must enter the Amazon keys & affiliate ID in order to work.
 
-/assets/setup.jpg
-
 After setting up the keys, simply check them and go and import products in the Advanced Search section.
-
-/assets/import.jpg
 
  
 == Screenshots == 
