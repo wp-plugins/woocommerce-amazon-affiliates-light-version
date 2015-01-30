@@ -1,0 +1,108 @@
+::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+	margin: 0
+}
+.WooZoneLight-button {
+	display: inline-block;
+	border: 0;
+	outline: 0;
+	font: 12px/17px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	padding: 5px 12px;
+	margin: 0;
+	width: auto;
+	cursor: pointer;
+	text-decoration: none;
+	zoom: 1;
+	overflow: hidden;
+	*overflow: visible;
+	color: #fff;
+	border: none;
+}
+.WooZoneLight-button.left {
+	float: left
+}
+.WooZoneLight-button.small {
+	padding: 2px 8px
+}
+.WooZoneLight-button.large {
+	padding: 6px 16px
+}
+.WooZoneLight-button:active {
+	background-image: none !important;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 1px 0 rgba(255,255,255,1);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 1px 0 rgba(255,255,255,1);
+	-o-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 1px 0 rgba(255,255,255,1);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 1px 0 rgba(255,255,255,1)
+}
+.WooZoneLight-button:disabled {
+	background-image: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color: #dadada;
+	background-color: #f8f8f8;
+	border-color: #ddd;
+	cursor: default
+}
+.WooZoneLight-button img {
+	margin: 0;
+	max-width: 16px;
+	max-height: 16px;
+	position: relative;
+	bottom: -2px;
+	left: -2px
+}
+
+.WooZoneLight-button.red {
+	background-image: none;
+	background-color: #e74c3c;
+	color: #fff;
+	font-weight: normal !important;
+}
+	.WooZoneLight-button.red:hover {
+		background-color: #c0392b;
+		color: #fff;
+	}
+	
+.WooZoneLight-button.blue {
+	background-image: none;
+	background-color: #3498db;
+	color: #fff;
+	font-weight: normal !important;
+}
+	.WooZoneLight-button.blue:hover {
+		background-color: #2980b9;
+		color: #fff;
+	}
+
+.WooZoneLight-button.green {
+	background-image: none;
+	background-color: #2ecc71;
+	color: #fff;
+}
+	.WooZoneLight-button.green:hover {
+		background-color: #27ae60;
+		color: #fff;
+	}
+	
+.WooZoneLight-button.gray {
+	background-image: none;
+	background-color: #bdc3c7;
+	color: #fff;
+}
+	.WooZoneLight-button.gray:hover {
+		background-color: #7f8c8d;
+		color: #fff;
+	}
+	
+.WooZoneLight-button.orange {
+	background-image: none;
+	background-color: #e67e22;
+	color: #fff;
+}
+	.WooZoneLight-button.orange:hover {
+		background-color: #d35400;
+		color: #fff;
+	}

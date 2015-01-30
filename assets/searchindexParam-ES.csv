@@ -1,0 +1,15 @@
+Automotive, Availability:Brand:BrowseNode:Keywords:Manufacturer:MaximumPrice:MerchantId:MinimumPrice:Sort:Title
+Baby, Availability:Author:Brand:BrowseNode:Keywords:Manufacturer:MaximumPrice:MerchantId:MinimumPrice:Sort:Title
+Books, Availability:Author:BrowseNode:Keywords:MaximumPrice:MerchantId:MinimumPrice:Power:Publisher:Sort:Title
+DVD, Actor:AudienceRating:Availability:BrowseNode:Director:Keywords:MaximumPrice:MerchantId:MinimumPrice:Publisher:Sort:Title
+Electronics, Availability:BrowseNode:Keywords:Manufacturer:MaximumPrice:MerchantId:MinimumPrice:Sort:Title
+ForeignBooks, Availability:Author:BrowseNode:Keywords:MaximumPrice:MerchantId:MinimumPrice:Power:Publisher:Sort:Title
+KindleStore, Author:Availability:BrowseNode:Keywords:MaximumPrice:MerchantId:MinimumPrice:Publisher:Sort:Title
+Kitchen, Availability:Author:Brand:BrowseNode:Manufacturer:MaximumPrice:MerchantId:MinimumPrice:Keywords:Sort:Title
+MP3Downloads, Availability:BrowseNode:Keywords:MaximumPrice:MerchantId:MinimumPrice:Sort:Title
+Music, Artist:Availability:BrowseNode:Keywords:MaximumPrice:MerchantId:MinimumPrice:MusicLabel:Sort:Title
+Shoes, Availability:Brand:BrowseNode:Keywords:Manufacturer:MaximumPrice:MerchantId:MinimumPrice:Sort:Title
+Software, Availability:Author:Brand:BrowseNode:Manufacturer:MaximumPrice:MerchantId:MinimumPrice:Keywords:Sort:Title
+Toys, Availability:BrowseNode:Keywords:MerchantId:Sort:Title
+VideoGames, Availability:Author:Brand:BrowseNode:Keywords:Manufacturer:MaximumPrice:MerchantId:MinimumPrice:Sort:Title
+Watches, Availability:BrowseNode:Keywords:MerchantId:Sort:Title

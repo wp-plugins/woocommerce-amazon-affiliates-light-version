@@ -1,0 +1,389 @@
+
+/* amazon search box style */
+#WooZoneLight_api_search {
+	position: relative;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAADFBMVEXx9vnw9fj+/v7///+vmeNIAAAAKklEQVQIHQXBAQEAAAjDoHn6dxaqrqpqAAWwMrZRs8EKAzWAshkUDIoZPCvPAOPf77MtAAAAAElFTkSuQmCC") repeat scroll 0 0 transparent;
+}
+	#WooZoneLight_api_search .inside {
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0 2px 0;
+	}
+	#WooZoneLight_api_search .WooZoneLight-shadow {
+        box-shadow: 0 0 100px rgba(0, 0, 0, 0.2) inset;
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+        width: 100%;
+        top: 0;
+    }
+	
+#WooZoneLight-search-bar {
+	width: 100%; 
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACdJREFUeNpifPPmDRcXFwMMMCFzvn37xoTMAcoxIXNA6pE5QAAQYABQ2g7sm2EZYgAAAABJRU5ErkJggg==") repeat scroll 0 0 transparent;
+	position: relative;
+	padding: 12px 0px 8px 0px;
+	z-index: 1;
+	margin: 0px 0px 0px 0px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #b5b5b5;
+	float: left;
+}
+	#WooZoneLight-search-bar .WooZoneLight-search-content {
+		margin: 0px 10px 0px 10px;
+		float: left;
+	}
+		#WooZoneLight-search-bar .WooZoneLight-search-content .WooZoneLight-search-block {
+			width: 350px;
+			float: left;
+			border-right: 1px solid #dadada;
+			margin: 0px 15px 0px 0px;
+		}
+			#WooZoneLight-search-bar .WooZoneLight-search-content .WooZoneLight-search-block label {
+				display: block;
+				float: left;
+				margin: 4px 4px 0px 0px;
+			}
+			#WooZoneLight-search-bar .WooZoneLight-search-content .WooZoneLight-search-block input {
+				display: block;
+				float: left;
+				width: 165px; 
+				margin: 2px 4px 0px 10px;
+			}
+			
+			#WooZoneLight-search-bar .WooZoneLight-search-content #WooZoneLight-search-link {
+				position: relative;
+				top: 2px;
+				float: left;
+			}
+			
+			#WooZoneLight-search-bar #WooZoneLight-ajax-loader {
+				width: 200px;
+				float: left;
+				margin: 2px 0px 0px 0px;
+				padding: 2px 2px 0px 2px;
+				line-height: 22px;
+				font-size: 12px;
+				display: none;
+			}
+				#WooZoneLight-search-bar #WooZoneLight-ajax-loader img {
+					position: relative;
+					left: -4px;
+					bottom: -2px;
+				}
+
+#WooZoneLight-results {
+	margin: 0px 0px 0px 0px;
+	background: #FFF;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+}
+	#WooZoneLight-results .resultsTopBar {
+		background: #EDF7FF;
+		border-bottom: 1px solid #D0EAF8;
+		border-top: 1px solid #D0EAF8;
+		display: inline;
+		float: left;
+		font-size: 93%;
+		width: 100%;
+		margin-bottom: 15px;
+		position: relative;
+	}
+		#WooZoneLight-results .resultsTopBar h2 {
+			margin: 0px 0px 0px 10px;
+			padding: 0px 0px 0px 0px;
+			font-family: arial,helvetica,sans-serif;
+			font-size: 12px;
+		}
+		
+		#WooZoneLight-results .resultsTopBar .WooZoneLight-pagination {
+			width: 180px;
+			position: absolute;
+			right: 10px;
+			top: 2px;
+			text-align: right;
+		}
+			#WooZoneLight-results .resultsTopBar .WooZoneLight-pagination select {
+				font-size: 12px;
+				width: 50px;
+				position: relative;
+				top: -2px;
+			}
+	
+	#WooZoneLight-results .WooZoneLight-product-box {
+		width: 100%;
+		height: 400px;
+		overflow: auto;
+		border-bottom: 1px solid #DDDDDD;
+		float: left;
+	}
+	#WooZoneLight-results .product {
+		margin: 0px 1% 0px 1%;
+		padding: 8px 0 4px;
+		float: left;
+		width: 98%;
+		height: 100px;
+	}
+	#WooZoneLight-results .product td {
+		border-bottom: 1px solid #DDDDDD;
+		padding-bottom: 15px;
+		padding-top: 10px;
+	}
+	#WooZoneLight-results .product .product-number {
+		color: #666666;
+		font-size: 10px;
+		width: 18px;
+		vertical-align: top;
+	}
+	
+	#WooZoneLight-results .product .product-image {
+		text-align: center;
+		vertical-align: top;
+		width: 80px;
+		border-right: 1px solid #DADADA;
+		padding: 0 3px 6px;
+	}
+		#WooZoneLight-results .product .product-image a {
+			display: block;
+			margin: 10px 0px 0px 0px;
+		}
+	#WooZoneLight-results .product .product-data {
+		padding: 4px 12px;
+		vertical-align: top;
+	}
+		#WooZoneLight-results .product .product-data h4 {
+			margin: 6px 0px 0px 0px;
+		}
+		#WooZoneLight-results .product .product-data span.price {
+			margin: 4px 0px 8px 0px;
+			font-weight: bold;
+			color: #000;
+		}
+	#WooZoneLight-results .product .product-options {
+		width: 200px;
+		padding-left: 10px;
+		border-left: 1px solid #dadada;
+	}
+	
+	
+#WooZoneLight_products_search a.WooZoneLight-info-tip {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: 16px;
+	text-indent: -1000px;
+	height: 16px;
+	background: url("data:image/png;base64,R0lGODlhEAAQAMQfAGm6/idTd4yTmF+v8Xa37KvW+lyh3KHJ62aq41ee2bXZ98nm/2mt5W2Ck5XN/C1chEZieho8WXXA/2Gn4P39/W+y6V+l3qjP8Njt/lx2izxPYGyv51Oa1EJWZ////////yH5BAEAAB8ALAAAAAAQABAAAAWH4Cd+Xml6Y0pCQts0EKp6GbYshaM/skhjhCChUmFIeL4OsHIxXRAISQTl6SgIG8+FgfBMoh2qtbLZQr0TQJhk3TC4pYPBApiyFVDEwSOf18UFXxMWBoUJBn9sDgmDewcJCRyJJBoEkRyYmAABPZQEAAOhA5seFDMaDw8BAQ9TpiokJyWwtLUhADs=") repeat scroll 0 0 transparent;
+}
+	
+	a.WooZoneLight-option-btn {
+		-moz-border-bottom-colors: none;
+		-moz-border-image: none;
+		-moz-border-left-colors: none;
+		-moz-border-right-colors: none;
+		-moz-border-top-colors: none;
+		background-color: #FEDA71;
+		background-image: -moz-linear-gradient(center top , #FEDA71, #FEBB49);
+		border-color: #F5B74E #E7A943 #D6982F;
+		border-left: 1px solid #E7A943;
+		border-radius: 4px 4px 4px 4px;
+		border-right: 1px solid #E7A943;
+		border-style: solid;
+		border-width: 1px;
+		box-shadow: 0 1px 2px #D9D9D9, 0 1px 0 #FFE598 inset;
+		color: #623F1D;
+		display: block;
+		width: 130px;
+		font-size: 12px;
+		font-weight: bold;
+		line-height: 12px;
+		padding: 2px 14px 6px 14px;
+		text-decoration: none;
+		text-shadow: 0 1px 0 #FEDE9D;
+		margin: 3px auto;
+	}
+		.WooZoneLight-option-btn:hover {
+			background-color: #e1b229;
+			background-image: -moz-linear-gradient(center top , #e1b229, #efc445);
+		}
+		.WooZoneLight-option-btn img {
+			position: relative;
+			bottom: -4px;
+			left: -2px;
+		}
+
+#WooZoneLight_shop_products_price, #WooZoneLight_shop_products_markers {
+	display: none;
+}
+
+#WooZoneLight-bulkimport {
+	border: 1px solid #dadada;
+	margin: 20px 20px 0px 0px;
+	padding: 2px;
+	padding-bottom: 6px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+	#WooZoneLight-bulkimport .WooZoneLight-product-box {
+		height: 600px; 
+	}
+	
+	#WooZoneLight-bulkimport #WooZoneLight-results .resultsTopBar {
+		height: 28px; 
+	}
+	#WooZoneLight-bulkimport #WooZoneLight-results .resultsTopBar h2 {
+		margin: 6px 0 0 10px;
+	}
+	#WooZoneLight-bulkimport #WooZoneLight-results .product .product-check {
+		text-align: center;
+		vertical-align: center;
+		width: 30px;
+		border-right: 1px solid #DADADA;
+		padding: 0 3px 6px;
+	}
+	.WooZoneLight-tabel-title {
+		font-weight:bold;
+	}
+		.WooZoneLight-tabel-title td {
+			padding: 0px;
+			height: 30px; 
+		}
+		
+		#WooZoneLight-bulkimport #WooZoneLight-results thead td {
+			margin:30px;
+			padding-top: 2px;
+			padding-left: 2px;
+			padding-bottom: 4px;
+			background: #f1f1f1;
+		}
+	#WooZoneLight-bulkimport .WooZoneLight-import-bar {
+		margin: 10px 0px 0px 0px;
+		border-top: 1px solid #B5B5B5;
+	}	
+	
+	/* Bar which is placed behind the progress */
+	#WooZoneLight-bulkimport .ui-progress-bar {
+	  /* Usual setup stuff */
+	  position: relative;
+	  height: 20px;
+	  margin: 10px 10px 0px 0px;
+	  font-size: 10px;
+
+	  /* Pad right so we don't cover the borders when fully progressed */
+	  padding-right: 2px;
+
+	  /* For browser that don't support gradients, we'll set a blanket background colour */
+	  background-color: #abb2bc;
+
+	  /* Rounds the ends, we specify an excessive amount to make sure they are completely rounded */
+	  /* Adjust to your liking, and don't forget to adjust to the same amount in .ui-progress */
+	  border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  -webkit-border-radius: 5px;
+
+	  /* Webkit background gradient */
+	  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #b6bcc6), color-stop(1, #9da5b0));
+	  /* Mozilla background gradient */
+	  background: -moz-linear-gradient(#9da5b0 0%, #b6bcc6 100%);
+
+	  /* Give it the inset look by adding some shadows and highlights */
+	  -webkit-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+	  -moz-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+	  box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+	}
+
+	/* Progress part of the progress bar */
+	#WooZoneLight-bulkimport .ui-progress {
+	  /* Usual setup stuff */
+	  position: relative;
+	  display: block;
+	  overflow: hidden;
+
+	  /* Height should be 2px less than .ui-progress-bar so as to not cover borders and give it a look of being inset */
+	  height: 18px;
+
+	  /* Rounds the ends, we specify an excessive amount to make sure they are completely rounded */
+	  /* Adjust to your liking, and don't forget to adjust to the same amount in .ui-progress-bar */
+	  -moz-border-radius: 5px;
+	  -webkit-border-radius: 5px;
+	  border-radius: 5px;
+
+	  /* Set the background size so the stripes work correctly */
+	  -webkit-background-size: 14px 14px; /* Webkit */
+
+	  /* For browser that don't support gradients, we'll set a blanket background colour */
+	  background-color: #74d04c;
+
+	  /* Webkit background stripes and gradient */
+	  background: -webkit-gradient(linear, 0 0, 14 14,
+		color-stop(0.00, rgba(255,255,255,0.17)),
+		color-stop(0.25, rgba(255,255,255,0.17)),
+		color-stop(0.26, rgba(255,255,255,0)),
+		color-stop(0.50, rgba(255,255,255,0)),
+		color-stop(0.51, rgba(255,255,255,0.17)),
+		color-stop(0.75, rgba(255,255,255,0.17)),
+		color-stop(0.76, rgba(255,255,255,0)),
+		color-stop(1.00, rgba(255,255,255,0))
+	  ), -webkit-gradient(linear, left bottom, left top, color-stop(0, #74d04c), color-stop(1, #9bdd62));
+
+	  /* Mozilla (Firefox etc) background stripes */
+	  /* Note: Mozilla's support for gradients is more true to the original design, allowing gradients at 30 degrees, as apposed to 45 degress in webkit. */
+	  background: -moz-repeating-linear-gradient(top left -30deg,
+		rgba(255,255,255,0.17),
+		rgba(255,255,255,0.17) 15px,
+		rgba(255,255,255,0) 15px,
+		rgba(255,255,255,0) 20px
+	  ), -moz-linear-gradient(#9bdd62 0%, #74d04c 100%);
+
+	  /* Webkit embossing */
+	  -webkit-box-shadow: inset 0px 1px 0px 0px #dbf383, inset 0px -1px 1px #58c43a;
+	  /* Mozilla embossing */
+	  -moz-box-shadow: inset 0px 1px 0px 0px #dbf383, inset 0px -1px 1px #58c43a;
+	  /* IE9 and Opera embossing */
+	  box-shadow: inset 0px 1px 0px 0px #dbf383, inset 0px -1px 1px #58c43a;
+
+	  /* Give it a higher contrast outline */
+	  border: 1px solid #4c8932;
+
+	  /* Webkit magic */
+	  -webkit-animation: animate-stripes 2s linear infinite;
+
+	  /* TODO: Wait for Mozilla to support animation, then implement */
+	}
+
+	/* Progress indicator text */
+	#WooZoneLight-bulkimport .ui-progress span.ui-label {
+	  position: absolute;
+	  right: 0;
+	  line-height: 18px;
+	  padding-right: 12px;
+	  color: rgba(0,0,0,0.6);
+	  text-shadow: rgba(255,255,255, 0.45) 0 1px 0px;
+	  white-space: nowrap;
+	}
+	#WooZoneLight-bulkimport .progress-status {
+		margin: 10px 0px 0px 0px;
+		padding-bottom: 15px;
+		float: right;
+		width: 300px; 
+	}
+	
+	#WooZoneLight-import-status {
+		text-align: left;
+		float: left;
+		width: 700px; 
+		position: relative;
+		top: -4px;
+		margin: 0px 0px 0px 10px;
+	}
+		#WooZoneLight-import-status span#WooZoneLight-status-ready {
+			font-weight: bold;
+			color: #24a935;
+		}
+		#WooZoneLight-import-status span#WooZoneLight-status-remaining {
+			font-weight: bold;
+			color: #e58900;
+		}
+		#WooZoneLight-import-btn {
+			position: relative;
+			top: 6px;
+		}

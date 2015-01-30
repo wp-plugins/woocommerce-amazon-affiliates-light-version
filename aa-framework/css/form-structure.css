@@ -1,0 +1,224 @@
+.WooZoneLight-form .WooZoneLight-button-row:after, .WooZoneLight-form .WooZoneLight-form-row:after, .WooZoneLight-form:after, .WooZoneLight-form-item:after, .WooZoneLight-form ul.WooZoneLight-form-list:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0
+}
+* html .WooZoneLight-button-row, * html .WooZoneLight-form-row, * html .WooZoneLight-form, * html .WooZoneLight-form-item, * html .WooZoneLight-form ul.WooZoneLight-form-list {
+	height: 1%
+}
+.WooZoneLight-form .WooZoneLight-form-row {
+	padding: 23px 16px;
+	display: block;
+	border-bottom: 1px solid #f2f2f2
+}
+.WooZoneLight-form .WooZoneLight-form-row:last-child {
+	border-bottom: 0
+}
+.WooZoneLight-form .WooZoneLight-button-row {
+	background-color: #e5e9ea;
+	border-top: 1px solid #dddddd;
+	margin: 0;
+	padding: 12px;
+	margin-top: -1px;
+	text-align: right;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,1)
+}
+.WooZoneLight-form .WooZoneLight-form-col-1-8 label, .WooZoneLight-form .WooZoneLight-form-col-2-8 label, .WooZoneLight-form .WooZoneLight-form-col-3-8 label, .WooZoneLight-form .WooZoneLight-form-col-4-8 label, .WooZoneLight-form .WooZoneLight-form-col-5-8 label, .WooZoneLight-form .WooZoneLight-form-col-6-8 label, .WooZoneLight-form .WooZoneLight-form-col-7-8 label, .WooZoneLight-form .WooZoneLight-form-col-8-8 label {
+	white-space: nowrap;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+.WooZoneLight-form .WooZoneLight-form-col-1-8, .WooZoneLight-form .WooZoneLight-form-col-2-8, .WooZoneLight-form .WooZoneLight-form-col-3-8, .WooZoneLight-form .WooZoneLight-form-col-4-8, .WooZoneLight-form .WooZoneLight-form-col-5-8, .WooZoneLight-form .WooZoneLight-form-col-6-8, .WooZoneLight-form .WooZoneLight-form-col-7-8, .WooZoneLight-form .WooZoneLight-form-col-8-8 {
+	float: left;
+	padding: 0 .5%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-khtml-box-sizing: border-box
+}
+.WooZoneLight-form .WooZoneLight-form-col-1-8.alpha, .WooZoneLight-form .WooZoneLight-form-col-2-8.alpha, .WooZoneLight-form .WooZoneLight-form-col-3-8.alpha, .WooZoneLight-form .WooZoneLight-form-col-4-8.alpha, .WooZoneLight-form .WooZoneLight-form-col-5-8.alpha, .WooZoneLight-form .WooZoneLight-form-col-6-8.alpha, .WooZoneLight-form .WooZoneLight-form-col-7-8.alpha, .WooZoneLight-form .WooZoneLight-form-col-8-8.alpha {
+	padding-left: 0;
+	clear: left
+}
+.WooZoneLight-form .WooZoneLight-form-col-1-8.omega, .WooZoneLight-form .WooZoneLight-form-col-2-8.omega, .WooZoneLight-form .WooZoneLight-form-col-3-8.omega, .WooZoneLight-form .WooZoneLight-form-col-4-8.omega, .WooZoneLight-form .WooZoneLight-form-col-5-8.omega, .WooZoneLight-form .WooZoneLight-form-col-6-8.omega, .WooZoneLight-form .WooZoneLight-form-col-7-8.omega, .WooZoneLight-form .WooZoneLight-form-col-8-8.omega {
+	padding-right: 0;
+	clear: right
+}
+.WooZoneLight-form .WooZoneLight-form-col-1-8 {
+	width: 12.5%
+}
+.WooZoneLight-form .WooZoneLight-form-col-2-8 {
+	width: 25%
+}
+.WooZoneLight-form .WooZoneLight-form-col-3-8 {
+	width: 37.5%
+}
+.WooZoneLight-form .WooZoneLight-form-col-4-8 {
+	width: 50%
+}
+.WooZoneLight-form .WooZoneLight-form-col-5-8 {
+	width: 62.5%
+}
+.WooZoneLight-form .WooZoneLight-form-col-6-8 {
+	width: 75%
+}
+.WooZoneLight-form .WooZoneLight-form-col-7-8 {
+	width: 87.5%
+}
+.WooZoneLight-form .WooZoneLight-form-col-8-8 {
+	width: 100%
+}
+.WooZoneLight-form ul.WooZoneLight-form-list {
+	display: block;
+	width: 100% !important
+}
+.WooZoneLight-form ul.WooZoneLight-form-list.inline {
+	margin-bottom: 0
+}
+.WooZoneLight-form ul.WooZoneLight-form-list, .WooZoneLight-form ul.WooZoneLight-form-list li {
+	margin: 0;
+	line-height: normal;
+	list-style: none
+}
+.WooZoneLight-form ul.WooZoneLight-form-list {
+	margin-bottom: 4px
+}
+.WooZoneLight-form ul.WooZoneLight-form-list li {
+	margin-bottom: 4px
+}
+.WooZoneLight-form ul.WooZoneLight-form-list li:last-child {
+	margin: 0
+}
+.WooZoneLight-form ul.WooZoneLight-form-list.inline li {
+	float: left;
+	margin: 5px 10px 0 0
+}
+.WooZoneLight-form ul.WooZoneLight-form-list li input, .WooZoneLight-form ul.WooZoneLight-form-list li label {
+	float: none !important;
+	padding: 0;
+	margin: 0 2px 0 0;
+	width: auto !important;
+	display: inline !important;
+	vertical-align: middle !important
+}
+.WooZoneLight-form label {
+	cursor: pointer;
+	display: block
+}
+.WooZoneLight-form label .required {
+	color: #f00
+}
+.WooZoneLight-form fieldset {
+	margin-bottom: 0;
+	border-top: 1px solid #d3d3d3
+}
+.WooZoneLight-form fieldset legend {
+	padding: 4px 6px;
+	margin: 0 10px;
+	background-color: #fafafa;
+	border: 1px solid #d3d3d3
+}
+.WooZoneLight-form .WooZoneLight-form-item .errorMessage, .WooZoneLight-form .WooZoneLight-form-item label.error {
+	display: block;
+	color: #d44d24;
+	font-size: 11px;
+	width: 100% !important;
+	margin-top: 1px;
+	padding: 0 !important
+}
+.WooZoneLight-form .WooZoneLight-form-item .formNote {
+	display: block;
+	color: #b9b9b9;
+	font-size: 11px;
+	margin-bottom: 1px;
+	font-style: italic;
+	margin-top: -17px;
+	text-align: right;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+.WooZoneLight-form .WooZoneLight-form-item a.formNote {
+	color: #73991f
+}
+.WooZoneLight-form .WooZoneLight-form-item .formNote.left {
+	text-align: left
+}
+.WooZoneLight-form .WooZoneLight-form-row .WooZoneLight-form-item {
+	position: relative
+}
+.WooZoneLight-form .WooZoneLight-form-row .WooZoneLight-form-item > *, .WooZoneLight-form .WooZoneLight-form-row .WooZoneLight-form-item.default > * {
+	width: 70%
+}
+.WooZoneLight-form .WooZoneLight-form-row .WooZoneLight-form-item.small > * {
+	width: 35%
+}
+.WooZoneLight-form .WooZoneLight-form-row .WooZoneLight-form-item.large > * {
+	width: 100%
+}
+.WooZoneLight-form .WooZoneLight-form-row, .WooZoneLight-form .WooZoneLight-form-inline .WooZoneLight-form-row, .WooZoneLight-form .WooZoneLight-form-row.WooZoneLight-form-inline {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+.WooZoneLight-form .WooZoneLight-form-row label, .WooZoneLight-form .WooZoneLight-form-inline .WooZoneLight-form-row label, .WooZoneLight-form .WooZoneLight-form-row.WooZoneLight-form-inline label {
+	float: left;
+	width: 180px;
+	padding: 6px 0
+}
+.WooZoneLight-form .WooZoneLight-form-row .WooZoneLight-form-item, .WooZoneLight-form .WooZoneLight-form-inline .WooZoneLight-form-row .WooZoneLight-form-item, .WooZoneLight-form .WooZoneLight-form-row.WooZoneLight-form-inline .WooZoneLight-form-item {
+	margin-left: 180px;
+}
+.WooZoneLight-form .WooZoneLight-form-block .WooZoneLight-form-row, .WooZoneLight-form .WooZoneLight-form-row.WooZoneLight-form-block {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+.WooZoneLight-form .WooZoneLight-form-block .WooZoneLight-form-row label, .WooZoneLight-form .WooZoneLight-form-row.WooZoneLight-form-block label {
+	float: none;
+	width: auto;
+	display: block;
+	padding: 0 0 6px 0
+}
+.WooZoneLight-form .WooZoneLight-form-block .WooZoneLight-form-row .WooZoneLight-form-item, .WooZoneLight-form .WooZoneLight-form-row.WooZoneLight-form-block .WooZoneLight-form-item {
+	margin: 0;
+	display: block
+}
+@media only screen and (max-width: 768px) {
+	.WooZoneLight-form .WooZoneLight-form-row label, .WooZoneLight-form .WooZoneLight-form-inline .WooZoneLight-form-row label, .WooZoneLight-form .WooZoneLight-form-row.WooZoneLight-form-inline label {
+		clear: both;
+		float: none;
+		width: auto;
+		padding: 0 0 6px 0
+	}
+	.WooZoneLight-form .WooZoneLight-form-row .WooZoneLight-form-item, .WooZoneLight-form .WooZoneLight-form-inline .WooZoneLight-form-row .WooZoneLight-form-item, .WooZoneLight-form .WooZoneLight-form-row.WooZoneLight-form-inline .WooZoneLight-form-item {
+		clear: both;
+		float: none;
+		margin: 0
+	}
+	.WooZoneLight-form .WooZoneLight-form-item .formNote {
+		text-align: left;
+		margin-top: auto
+	}
+}
+@media only screen and (max-width: 480px) {
+	.WooZoneLight-form .WooZoneLight-form-row {
+		padding: 12px
+	}
+	.WooZoneLight-form .WooZoneLight-button-row {
+		padding: 8px
+	}
+	.WooZoneLight-form .WooZoneLight-form-item .errorMessage, .WooZoneLight-form .WooZoneLight-form-item label.error {
+		margin: 1px 0 0 0
+	}
+}

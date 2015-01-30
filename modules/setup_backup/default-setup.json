@@ -1,0 +1,15 @@
+{
+	"WooZoneLight_module_advanced_search": "true",
+	"WooZoneLight_module_assets_download": "true",
+	"WooZoneLight_module_server_status": "true",
+	"WooZoneLight_module_amazon": "true",
+	"WooZoneLight_module_csv_products_import": "true",
+	"WooZoneLight_module_synchronization": "true",
+	"WooZoneLight_module_prices_fix": "true",
+	"WooZoneLight_module_stats_prod": "true",
+	"WooZoneLight_module_product_in_post": "true",
+	"WooZoneLight_module_prices_fix": "true",
+	"WooZoneLight_module_content_spinner": "true",
+	"WooZoneLight_module_asin_grabber": "true", 
+	"WooZoneLight_plugin_do_activation_redirect": false
+}

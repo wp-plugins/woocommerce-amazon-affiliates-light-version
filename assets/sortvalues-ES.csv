@@ -1,0 +1,15 @@
+Automotive, reviewrank_authority:reviewrank:-price:price:salesrank:relevancerank
+Baby, titlerank:-price:price:salesrank
+Books, -publicationdate:-pubdate:reviewrank_authority:reviewrank:-price:price:salesrank:relevancerank
+DVD, -releasedate:reviewrank_authority:reviewrank:-price:price:salesrank:relevancerank
+Electronics, reviewrank_authority:reviewrank:-price:price:salesrank:relevancerank
+ForeignBooks, -publicationdate:-pubdate:reviewrank_authority:reviewrank:-price:price:salesrank:relevancerank
+KindleStore, daterank:reviewrank:-price:price:salesrank:relevancerank:-edition-sales-velocity
+Kitchen, reviewrank_authority:reviewrank:-price:price:salesrank:relevancerank
+MP3Downloads, salesrank:relevancerank:-releasedate:-price:price
+Music, -releasedate:reviewrank_authority:reviewrank:-price:price:salesrank:relevancerank
+Shoes, reviewrank:relevancerank:-price:price:popularityrank:-launch-date
+Software, -releasedate:reviewrank_authority:reviewrank:-price:price:salesrank:relevancerank
+Toys, reviewrank_authority:reviewrank:-price:price:salesrank:relevancerank
+VideoGames, -releasedate:reviewrank_authority:reviewrank:-price:price:salesrank:relevancerank
+Watches, reviewrank_authority:reviewrank:-price:price:salesrank:relevancerank

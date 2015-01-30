@@ -1,0 +1,120 @@
+div.WooZoneLight-panel:after, div.WooZoneLight-panel .WooZoneLight-panel-content:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0
+}
+div.WooZoneLight-panel, div.WooZoneLight-panel .WooZoneLight-panel-content {
+	display: inline-block
+}
+* html div.WooZoneLight-panel, * html div.WooZoneLight-panel .WooZoneLight-panel-content {
+	height: 1%
+}
+div.WooZoneLight-panel, div.WooZoneLight-panel .WooZoneLight-panel-content {
+	display: block
+}
+div.WooZoneLight-panel, div.WooZoneLight-panel-widget {
+	background: #fff;
+	margin-bottom: 20px;
+	position: relative;
+	-webkit-border-radius: 5px 5px 0 0;
+	-o-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
+}
+div.WooZoneLight-panel .WooZoneLight-panel-header {
+	display: block !important;
+	position: relative;
+	text-transform: uppercase;
+	color: #aaaaaa;
+}
+div.WooZoneLight-panel .WooZoneLight-panel-header .WooZoneLight-panel-title {
+	font-size: 14px;
+	display: block;
+	line-height: 18px;
+	border-bottom: 2px solid #f4f4f4;
+	margin: 0px 15px 10px 15px;
+	padding-top: 20px;
+	padding-bottom: 12px;
+	font-size: 16px;
+}
+div.WooZoneLight-panel .WooZoneLight-panel-header .WooZoneLight-panel-title img {
+	max-height: 16px;
+	max-width: 16px;
+	display: inline;
+	margin-right: 4px;
+	margin-bottom: -2px;
+	padding: 2px;
+}
+div.WooZoneLight-panel .WooZoneLight-panel-header .WooZoneLight-panel-toggler {
+	background: url(images/icons/black/16/bended_arrow_up.png) no-repeat center center;
+	border-left: 1px solid #c3c3c3;
+	margin-top: -18px;
+	height: 12px;
+	width: 32px;
+	padding: 12px 0;
+	padding-right: 16px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	cursor: pointer
+}
+div.WooZoneLight-panel.collapsed .WooZoneLight-panel-header .WooZoneLight-panel-toggler {
+	background-image: url(images/icons/black/16/bended_arrow_down.png)
+}
+div.WooZoneLight-panel.collapsed > * {
+	display: none
+}
+div.WooZoneLight-panel .WooZoneLight-panel-content {
+	border-top: 0
+}
+div.WooZoneLight-panel.scrollable .WooZoneLight-panel-content .viewport {
+	overflow: hidden;
+	position: relative
+}
+div.WooZoneLight-panel.scrollable .WooZoneLight-panel-content .viewport .overview {
+	position: absolute;
+	left: 0;
+	top: 0
+}
+div.WooZoneLight-panel.scrollable .WooZoneLight-panel-content .scrollbar {
+	width: 10px;
+	height: 16px;
+	padding: 3px 0;
+	background-color: #fff;
+	border-top: 1px solid #d0d0d0
+}
+div.WooZoneLight-panel.scrollable .WooZoneLight-panel-content .scrollbar .track {
+	height: 16px;
+	width: 10px;
+	background: url(images/scrollbar-track-bg.png) repeat-x;
+	position: relative
+}
+div.WooZoneLight-panel.scrollable .WooZoneLight-panel-content .scrollbar .thumb {
+	height: 13px;
+	width: 10px;
+	margin-top: 1px;
+	border-top: 1px solid #fff;
+	cursor: pointer;
+	overflow: hidden;
+	top: 0;
+	position: absolute;
+	background: #f0f0f0 url(images/scrollbar-grip.png) center center no-repeat
+}
+div.WooZoneLight-panel.scrollable .WooZoneLight-panel-content .scrollbar .thumb .end {
+	display: none
+}
+div.WooZoneLight-panel.scrollable .WooZoneLight-panel-content .disable {
+	display: none
+}
+div.WooZoneLight-panel .WooZoneLight-panel-content.with-padding, div.WooZoneLight-panel-widget {
+	padding: 1em 1.2em
+}
